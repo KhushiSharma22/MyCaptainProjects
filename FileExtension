@@ -1,0 +1,13 @@
+a= input("Input the Filename: ")
+b= a.split('.')
+c= b[1]
+if c == "py":
+  print("The extension of file name is: 'python' ")
+elif c == "java":
+  print("The extension of file name is: 'java' ")
+elif c == "c":
+  print("The extension of file name is: 'C' ")
+elif c == "CPP":
+  print("The extension of file name is: 'C++' ")
+else:
+  print("TRY AGAIN")
