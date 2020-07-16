@@ -1,0 +1,4 @@
+radius= int(input(" Input the radius of the circle: ")
+pi=3.14
+area= pi*radius*radius
+print("The area of the circle with radius {} is: {}".format(radius,area))
